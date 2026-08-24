@@ -114,7 +114,7 @@ Your environment is now ready to use.
 6. Connect to the admin console at:
 
    ```
-   http://localhost:9043/ibm/console
+   https://localhost:9043/ibm/console
    ```
 
    ![Admin console login page](images/admin-console-login.jpg)
