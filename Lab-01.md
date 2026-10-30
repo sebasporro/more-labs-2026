@@ -284,7 +284,7 @@ Create a cluster with two managed Liberty servers.
 
 ---
 
-## Deploying a Java 17 Application into a Liberty Cluster
+## Deploying a Java 21 Application into a Liberty Cluster
 
 1. Navigate to **Applications → New Application → New Enterprise Application**.
 
