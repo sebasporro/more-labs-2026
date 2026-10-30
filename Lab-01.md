@@ -158,7 +158,7 @@ Your environment is now ready to use.
 
    ![New Enterprise Application menu](images/new-app-menu.jpg)
 
-   ![New Enterprise Application dialog](images/new-app-dialog.jpg)
+   ![New Enterprise Application dialog](images/war-selected.jpg)
 
 2. Click **Browse**, select `modresorts-1.0-java8.war` (see the path shown on screen), and click **Open**.
 
