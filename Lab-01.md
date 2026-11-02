@@ -286,6 +286,8 @@ Create a cluster with two managed Liberty servers.
 
 ## Deploying a Java 21 Application into a Liberty Cluster
 
+> **Note:** The application WAR file is located in `/home/itzuser/MoRE/LabFiles`.
+
 1. Navigate to **Applications → New Application → New Enterprise Application**.
 
    ![New Enterprise Application for Java 17](images/new-app-java17.jpg)
@@ -336,31 +338,27 @@ Create a cluster with two managed Liberty servers.
 
     ![All Applications list](images/all-apps-java17.jpg)
 
-12. Select `server-info.war` and click **Submit Action** to start the application.
-
-    ![Submit Action for server-info.war](images/submit-server-info.jpg)
-
-13. Navigate to **Server Type → Web Servers**.
+12. Navigate to **Server Type → Web Servers**.
 
     ![Web Servers navigation](images/web-servers-nav.png)
 
     ![Web Servers list](images/web-servers-list.png)
 
-14. Select `webserver1` and click **Generate Plug-in**.
+13. Select `webserver1` and click **Generate Plug-in**.
 
     ![Generate Plug-in for webserver1](images/generate-plugin.jpg)
 
-15. Select `webserver1` again and click **Propagate Plug-in**.
+14. Select `webserver1` again and click **Propagate Plug-in**.
 
     ![Propagate Plug-in for webserver1](images/propagate-plugin.jpg)
 
-16. Review the completion status.
+15. Review the completion status.
 
     ![Plug-in propagation completion](images/plugin-propagation.png)
 
     ![Completion status confirmed](images/plugin-complete.png)
 
-17. Verify application connectivity at:
+16. Verify application connectivity at:
 
     ```
     http://localhost:1080/server-info
